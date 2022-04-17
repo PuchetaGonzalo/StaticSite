@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+--a: rgb(240, 229, 229); 
+--red: rgb(226, 59, 59);
+--form: rgba(226,59,59,0.5);
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    background-image: url(/images/Log.jpg);
+}
+.head {
+    height: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+#main-tittle {
+    display: flex;
+    width: 100%;
+    padding-left: 2rem;
+    align-items: flex-end;
+}
+#logo {
+    height: 15vh;
+    width: 7.5vw;
+    transform: translateX(-3rem)
+}
+.navbar {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>a {
+    padding: 0.5rem;
+    color: var(--a);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--red);
+}
+#importanttext { 
+    background-color: var(--red);
+    color: var(--a) ;
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+}
+article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.central_text {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.rules {
+    margin: 1rem;
+    display: flex;
+    flex-flow: column;
+    width: 21rem;
+    text-align: center;
+}
+section > h3 {
+    padding: 1rem 0 ;
+    width: 50%;
+}
+form {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 44%;
+    align-items: center;
+    justify-content: space-between;
+}
+fieldset{
+    background-color: var(--form);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+legend {
+    font-size: x-large;
+    font-variant: petite-caps;
+}
+#input_address {
+    width: 80%;
+}
+::placeholder {
+    color: black;
+}
+label {
+    padding: 2px;
+}
+input {
+    text-align: center;
+    background: none;
+    padding: 1px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#submit {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: var(--a);
+    position: relative;
+    margin: auto;
+}
+#datacheck {
+    padding: 1rem;
+}
+.container {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bigol {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li {
+
+    text-align: justify;
+    margin: 1rem;
+}
+table caption {
+    width: 16rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+    text-align: left;
+    background-color: whitesmoke;
+    font-size: large;
+}
+table, tr, th, td{
+    margin: 1rem 0;
+    border: 2px black solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+thead {
+    background-color: var(--red);
+    height: 3rem;
+}
+tbody tr {
+    background-color: var(--red);
+}
+tbody tr:nth-child(odd) {
+    background-color: var(--a);
+}
+.month {
+    width: 100px;
+} 
+.teams {
+    width: 90px;
+}
+.place {
+    width: 130px;
+}
+.time {
+    width: 70px;
+}
+iframe {
+    width: 10rem;
+    display: block;
+}
+tfoot {
+    background-color: var(--a);
+    height: 2rem;
+}
+section > p {
+    margin: 1rem;
+    max-width: 50%;
+    text-align: left;
+}
+.sangria {
+    text-indent: 2rem;
+}
+span {
+    font-weight: bold;
+}
+.contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 17rem;
+    width: 100%;
+}
+.contact2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer {
+    margin-top: auto;
+    display: flex;
+    color: var(--a);
+    background: var(--red);
+    width: 100%;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
